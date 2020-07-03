@@ -1,0 +1,140 @@
+/* 사이드 네비 */
+.mainbar {
+  background: #333333;
+  position: absolute;
+  top: 80px;
+  height: 100vh;
+  display: flexbox;
+  position: fixed;
+
+  padding-top: 50px;
+
+  width: 250px;
+}
+.content {
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 10vw;
+  padding-top: 7vh;
+}
+
+.nav-t {
+  color: white;
+}
+.limenu {
+  padding-top: 25px;
+}
+
+.main-sidebar ul li a {
+  display: block;
+  padding: 15px 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.collapsed-active li a {
+  display: flex !important;
+  justify-content: center;
+}
+
+.mainbar ul li a:hover {
+  color: #fff;
+}
+
+/* 헤더 쪽 */
+.Mainul {
+  text-decoration: none;
+}
+
+.logo-area {
+  padding: 20px;
+  margin-left: 20px;
+}
+
+/* container */
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  transition: all 0.3s ease-in-out;
+  padding: 30px;
+  background: #fafafa;
+  min-height: calc(100vh - 80px);
+}
+
+.content-title {
+  font-size: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.content-body {
+  padding: 30px 0;
+}
+
+.table-title {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.table-01 {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.table-01 thead {
+  border-top: 1px solid #eee;
+}
+/* 공지사항 등록버튼 */
+.bd {
+  margin-right: 65vw;
+  padding-bottom: 1.5vh;
+}
+.notelink {
+  box-shadow: inset 0px 1px 0px 0px #000000;
+  background: linear-gradient(to bottom, #000000 5%, #000000 100%);
+  background-color: #000000;
+  border-radius: 6px;
+  border: 1px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #121412;
+}
+
+.btdiv:hover {
+  background: linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+  background-color: #72b352;
+}
+.btdiv :active {
+  position: relative;
+  top: 1px;
+}
+i {
+  color: #ffffff;
+  padding-right: 5px;
+}
+/* //공지사항등록버튼완료 */
+.tablesiz {
+  margin-top: -20px;
+  width: 70vw;
+  height: 50vh;
+  margin: auto;
+  padding-bottom: 10vh;
+}
+.Serchbar {
+  margin-left: 55vw;
+}

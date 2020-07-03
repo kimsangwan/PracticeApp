@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+/*네브바*/
+.navbar_total {
+  margin: 0;
+  font-family: Righteous;
+}
+.Jumbotron {
+  margin-top: -3vh;
+  margin-right: 10vh;
+  background-image: url(./milky-way.jpg);
+  color: white;
+  background-position: center;
+}
+.headerlk {
+  color: white;
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #263343;
+  padding: 8px 10px;
+  height: 5vh;
+}
+
+.navbar__logo {
+  font-size: 20px;
+  color: white;
+}
+
+.navbar__logo i {
+  color: pink;
+}
+.navbar__menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  justify-content: center;
+}
+.navbar__menu li {
+  padding: 8px 12px;
+}
+.navbar__menu li:hover {
+  background-color: thistle;
+  border-radius: 5px;
+}
+.navbar__icon {
+  list-style: none;
+  display: flex;
+  color: white;
+}
+.navbar__icon li {
+  padding: 8px 12px;
+}

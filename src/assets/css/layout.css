@@ -1,0 +1,132 @@
+/* 사이드 네비 */
+.main-sidebar {
+  display: inline-block;
+  background: #ddf;
+  position: absolute;
+  top: 80px;
+  min-height: calc(100vh - 80px);
+  transition: all 0.3s ease-in-out;
+}
+
+.main-collapsed-button {
+  position: absolute;
+  right: 0;
+  padding: 10px;
+}
+
+.main-sidebar ul {
+  padding-top: 50px;
+}
+
+.main-sidebar ul li {
+}
+
+.nav-text {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.main-sidebar ul li a {
+  display: block;
+  padding: 15px 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.collapsed-active li a {
+  display: flex !important;
+  justify-content: center;
+}
+
+.main-sidebar ul li a:hover {
+  color: #99f;
+}
+
+.main-sidebar ul li a i {
+}
+
+.main-sidebar ul li a i {
+}
+
+/* 헤더 쪽 */
+.header-wrapper {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-area {
+  padding: 20px;
+  margin-left: 20px;
+}
+
+/* container */
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  transition: all 0.3s ease-in-out;
+  padding: 30px;
+  background: #fafafa;
+  min-height: calc(100vh - 80px);
+}
+
+.content {
+  background: #fff;
+  min-height: calc(100vh - 140px);
+  padding: 30px;
+}
+
+.content-title {
+  font-size: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.content-body {
+  padding: 30px 0;
+}
+
+.table-title {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.table-01 {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.table-01 thead {
+  border-top: 1px solid #eee;
+}
+
+.table-01 tbody {
+  min-height: 370px;
+}
+
+.table-01 tr {
+  border-bottom: 1px solid #eee;
+}
+
+.table-01 tr td {
+  padding: 15px 25px;
+}
+
+.table-footer {
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.input-title {
+  width: 100%;
+  display: block;
+}

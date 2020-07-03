@@ -1,6 +1,29 @@
 .App {
   text-align: center;
 }
+.backgroundJ {
+  margin-top: 30px;
+}
+
+.notecontent {
+  text-align: start;
+  border-bottom: solid 1px black;
+  width: 140px;
+}
+.inputly {
+  padding-top: 15px;
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.divpp {
+  margin-top: 100px;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
 
 .App-logo {
   height: 40vmin;
